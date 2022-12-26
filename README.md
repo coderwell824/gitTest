@@ -1,2 +1,4 @@
 # gitTest
-1111
+git pull=git fetch + git  merge
+
+git branch --track origin/main
