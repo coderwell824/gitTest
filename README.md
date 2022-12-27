@@ -18,4 +18,10 @@ git fetch   git fetch origin master
 1111
 
 
-22222
+git push origin main:远程分支
+
+git config push.default upstream  修改git push的默认行为
+
+git checkout -b test   //创建本地分支
+
+
