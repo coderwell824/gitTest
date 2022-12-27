@@ -38,4 +38,4 @@ git push origin -d v1.0.0 删除远程指定分支
 git push origin v1.0.0  推送单个标签到远程
 git push origin --tags   推送所有的标签到远程
 
-git checkout v1.2.0  检出指定tag, 还会创建对应的分支
+git checkout v1.2.0  检出指定tag, 还会创建对应的本地分支
