@@ -79,5 +79,7 @@ git merge --allow-unrelated-histories
  git checkout --track origin/main 切换到指定分支,将本地分支去跟踪远程main分支 在本地自定创建一个main的本地分支
  
  git push origin -d test 删除远程的test分支
+ 
+ git commit -a -m "2222" // 暂存并提交文件
 
 
