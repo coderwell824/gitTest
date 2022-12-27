@@ -58,6 +58,11 @@ git checkout -b testing 创建并切换本地分支
 ![image-20221227173304017](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227173304017.png)
 
 修复指定tag的bug
-先checkout tag, 创建新的分支修复bug, 然后切换到main分支进行合并
+先checkout tag, 创建新的分支修复bug, 然后切换到main本地分支进行合并, git merge合并到的是本地分支
+
+git merge test //先将切换到main本地分支, 将test本地分支合并到main本地分支
+
+git branch -v 同时查看最后一次提交
+git branch --merged 查看所有合并到当前分支的分支
 
 
