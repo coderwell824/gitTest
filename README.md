@@ -63,6 +63,9 @@ git checkout -b testing 创建并切换本地分支
 git merge test //先将切换到main本地分支, 将test本地分支合并到main本地分支
 
 git branch -v 同时查看最后一次提交
-git branch --merged 查看所有合并到当前分支的分支
+git branch --merged 查看所有合并到当前分支的本地分支
+git branch --no-merged  查看所有没有合并到当前分支的本地分支
 
+git branch -d test  删除当前本地分支
+git branch -D test  强制删除某个本地分支
 
