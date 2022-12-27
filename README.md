@@ -71,4 +71,4 @@ git branch -D test  强制删除某个本地分支
 
  ![image-20221227191245261](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227191245261.png)
  
-git remote add origin 远程仓库地址    本地仓库连接到远程仓库
+git remote add origin 远程仓库地址    本地仓库连接到远程仓库;
