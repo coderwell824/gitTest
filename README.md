@@ -72,3 +72,12 @@ git branch -D test  强制删除某个本地分支
  ![image-20221227191245261](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227191245261.png)
  
 git remote add origin 远程仓库地址    本地仓库连接到远程仓库;
+
+git merge 出现refusing to merge unrelated histories解决方案:
+git merge --allow-unrelated-histories
+
+ git checkout --track origin/main 切换到指定分支,将本地分支去跟踪远程main分支 在本地自定创建一个main的本地分支
+ 
+ git push origin -d test 删除远程的test分支
+
+
