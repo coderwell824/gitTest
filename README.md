@@ -54,3 +54,9 @@ git log 提交日志  --pretty=oneline  一行
 
 git branch testing  创建本地分支
 git branch  查看本地分支列表
+
+git checkout -b testing 创建并切换本地分支
+
+![image-20221227173304017](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227173304017.png)
+
+
