@@ -43,5 +43,14 @@ git checkout v1.2.0  检出指定tag, 还会创建对应的本地分支
 ![image-20221227160437300](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227160437300.png)
 
 ---
-git log 提交日志
+git log 提交日志  --pretty=oneline  一行
 
+
+
+![image-20221227171718792](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227171718792.png)
+
+
+
+
+git branch testing  创建本地分支
+git branch  查看本地分支列表
