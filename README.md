@@ -27,3 +27,12 @@ git config push.default current  修改git push的默认行为为远程分支, �
 git checkout -b test   //创建本地分支
 
 ![image-20221227143336595](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227143336595.png)
+
+git tag 查看标签列表
+git show v1.0.0 查看指定标签的详细信息
+
+git tag v1.0.0   创建标签   在push之前执行
+
+git push origin v1.0.0  推送单个标签到远程
+
+git push origin --tags   推送所有的标签到远程
