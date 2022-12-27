@@ -69,3 +69,6 @@ git branch --no-merged  查看所有没有合并到当前分支的本地分支
 git branch -d test  删除当前本地分支
 git branch -D test  强制删除某个本地分支
 
+ ![image-20221227191245261](/Users/coderwell/Library/Application Support/typora-user-images/image-20221227191245261.png)
+ 
+git remote add origin 远程仓库地址    本地仓库连接到远程仓库
